@@ -1,0 +1,20 @@
+{
+  "name": "solarquest",
+  "version": "0.0.1",
+  "description": "Creating game with smartphone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Dmitry Solovyov <dm1solovyov@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
