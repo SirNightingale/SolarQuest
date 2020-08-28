@@ -3,7 +3,7 @@ var express = require('express'),
     port = Number(process.env.PORT || 8080);
 
 app.get('/', function(req, res) {
-   res.send('Server is working');
+	res.sendFile('index.html', {root: __dirname});
 });
 
 app.listen(port, function() {
